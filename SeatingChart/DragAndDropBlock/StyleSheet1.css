@@ -1,0 +1,72 @@
+﻿#wrapper {
+    border: 1px solid black;
+    width: 90%;
+    margin: 2% 2% 1% 1%;
+    overflow: hidden;
+    min-height:80%;
+}
+
+.divHeader {
+    border: 1px solid black;
+    background-color: lightblue;
+}
+
+.divSubHeader {
+    border: 1px solid black;
+    background-color: lightcoral;
+}
+
+#origin, #drop {
+    border: 1px solid white;
+    float: left;
+    padding-bottom: 80%;
+    margin-bottom: -80%;
+    min-height: 80%;
+}
+
+#origin {
+    /*background-color: lightgreen;*/
+    border: 1px solid black;
+    width: 15%;
+}
+
+    #origin img, #drop img {
+        margin-top: 3px;
+        margin-left: 5px;
+    }
+
+#drop {
+    background-color: gray;
+    min-height: 120px;
+    width: 85%;
+}
+
+.over {
+    border: solid 5px purple;
+}
+
+.draggable {
+    border: solid 2px gray;
+    width: auto;
+}
+
+div.show-image {
+    position: relative;
+    float:left;
+    margin:5px;
+    text-align:center;
+}
+div.show-image:hover img{
+    opacity:0.5;
+}
+div.show-image:hover input {
+    display: block;
+}
+div.show-image input {
+    position:absolute;
+    display:none;
+}
+div.show-image input.delete {
+    top:0;
+    left:79%;
+}
